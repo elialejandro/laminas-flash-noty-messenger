@@ -2,11 +2,11 @@
 
 namespace FlashNotyMessenger\View\Helper;
 
-use Zend\View\Helper\AbstractHelper;
-use Zend\Mvc\Plugin\FlashMessenger\FlashMessenger;
-use Zend\View\Helper\BasePath;
-use Zend\View\Helper\HeadLink;
-use Zend\View\Helper\InlineScript;
+use Laminas\View\Helper\AbstractHelper;
+use Laminas\Mvc\Plugin\FlashMessenger\FlashMessenger;
+use Laminas\View\Helper\BasePath;
+use Laminas\View\Helper\HeadLink;
+use Laminas\View\Helper\InlineScript;
 
 class FlashNoty extends AbstractHelper
 {
