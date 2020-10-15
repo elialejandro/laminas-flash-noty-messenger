@@ -1,10 +1,10 @@
 # Apple style notifications :)
 
-This version support Zend Framework 3 and Noty v3
+This version support Laminas and Noty v3
 
 View Helper for showing flash messages with help of **NOTY** plugin http://ned.im/noty/#/
 
-![Screenshot](https://raw.githubusercontent.com/elialejandro/zend-flash-noty-messenger/master/asset/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/elialejandro/laminas-flash-noty-messenger/master/asset/screenshot.png)
 
 ## **Install**
 
@@ -13,12 +13,12 @@ Add in composer.json file and than run **composer update**
 ```json
 {
   "require": {
-    "rurounize/zend-flash-noty-messenger":"^3.0"
+    "rurounize/laminas-flash-noty-messenger":"^4.0"
   }
 }
 ```
 
-The module should be registered in **config/modules.config.php** in Zend Framework 3
+The module should be registered in **config/modules.config.php** in Zend Framework 3 / Laminas
 
 ```php
 return [
@@ -36,9 +36,9 @@ and put it on path **public/js/noty/** <br/>
 ```shell
 mkdir public/js/noty/
 # For develop
-cp vendor/rurounize/zend-flash-noty-messenger/asset/noty.js public/js/noty/noty.js
+cp vendor/rurounize/laminas-flash-noty-messenger/asset/noty.js public/js/noty/noty.js
 # For production
-cp vendor/rurounize/zend-flash-noty-messenger/asset/noty.min.js public/js/noty/noty.min.js
+cp vendor/rurounize/laminas-flash-noty-messenger/asset/noty.min.js public/js/noty/noty.min.js
 ```
 
 If you can use local assets copy CSS files from **vendor/rurounize/zend-flash-noty-messenger/asset/** <br/>
@@ -47,9 +47,9 @@ and put it on path **public/css/noty/** <br/>
 ```shell
 mkdir public/css/noty/
 # For develop
-cp vendor/rurounize/zend-flash-noty-messenger/asset/noty.css public/css/noty/noty.css
+cp vendor/rurounize/laminas-flash-noty-messenger/asset/noty.css public/css/noty/noty.css
 # For production
-cp vendor/rurounize/zend-flash-noty-messenger/asset/noty.min.css public/css/noty/noty.min.css
+cp vendor/rurounize/laminas-flash-noty-messenger/asset/noty.min.css public/css/noty/noty.min.css
 ```
 
 If you want to customize the configuration you can copy in ***config/autoload/global.php*** or ***config/autoload/local.php***
